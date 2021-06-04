@@ -1,0 +1,5 @@
+查看索引：SHOW  INDEX FROM XXX
+
+创建索引：ALTER table XXX  ADD INDEX  XXX(XXX)
+
+删除索引：ALTER table XXX  DROP INDEX  XXX
