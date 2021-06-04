@@ -109,7 +109,7 @@
       <workItem from="1621510403524" duration="236000" />
       <workItem from="1621850413121" duration="133000" />
       <workItem from="1622790718291" duration="2463000" />
-      <workItem from="1622793278093" duration="1066000" />
+      <workItem from="1622793278093" duration="1374000" />
     </task>
     <task id="LOCAL-00002" summary="删除多余的">
       <created>1622793319284</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622793319284</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="删除多余的">
+      <created>1622794419409</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622794419409</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
