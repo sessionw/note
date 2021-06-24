@@ -1,4 +1,4 @@
-package stord;
+package computer.stord;
 
 /**
  * @author wangYaBin

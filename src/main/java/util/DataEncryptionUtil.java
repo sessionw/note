@@ -12,7 +12,7 @@ public class DataEncryptionUtil {
     /**
      * 给予Base64的密码编码
      **/
-    public static String passEnCoderByBase64(String password) {
+    public static String encodeBase64(String password) {
         if (password == null) {
             return null;
         }
@@ -23,10 +23,11 @@ public class DataEncryptionUtil {
     /**
      * 基于Base64的密码解密
      **/
-    public static String passDeCoderByBase64(String pass) {
-        if (pass == null) {
-            return null;
-        }
-        return new String(Base64.decodeBase64(pass.getBytes()));
+    public static String decodeBase64(String pass) {
+
+        byte[] bytes = Base64.decodeBase64(pass);
+
+
+        return new String();
     }
 }
