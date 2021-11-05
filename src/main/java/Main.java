@@ -1,11 +1,10 @@
-import dataStructure.DataArrayList;
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.RandomUtils;
+import org.apache.commons.lang3.time.DateFormatUtils;
+import org.jooq.lambda.tuple.Tuple2;
 
 import java.util.*;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.stream.Collectors;
 
 /**
  * @author wangYaBin
@@ -13,16 +12,18 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class Main {
 
-    public static void main(String[] args) throws InterruptedException {
+    private static final double KILO_VALUE = 1000 * 100;
 
-        final ArrayList<Object> objects = new ArrayList<>();
+    /**
+     * - 消费大于8888，以w为单位保留一位小数展示
+     * - 例：1.8w
+     */
+    private static final double MYRIAD_VALUE = 10000 * 100;
 
-        int[] a = {1, 231, 123, 23, 21, 432, 12313};
-        Arrays.sort( a,3, 5);
-        for (int i : a) {
-            System.out.println(i);
-        }
-
+    public static void main(String[] args) {
+       System.out.println(DateFormatUtils.format(new Date(0),"yyyy-MM-dd"));
     }
+
+
 
 }
